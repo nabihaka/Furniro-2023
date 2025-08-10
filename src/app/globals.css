@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
 :root {
+  --color-primary: #b88e2f;
+  --color-secondary: #fff3e3;
+  --color-text-gray: #9f9f9f;
+  --color-line-gray: #d9d9d9;
+}
+
+.input-placeholder::placeholder {
+  color: var(--color-text-gray);
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +34,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
