@@ -27,25 +27,25 @@ export const Navbar = () => {
         <div className="flex items-center gap-11">
           <div className="relative group">
             <img src={AccountIcon.src} className="cursor-pointer" />
-            <div className="absolute top-full mt-1 -left-7.5 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
+            <div className="absolute top-full mt-1 left-1/2 -translate-x-1/2 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
               Account
             </div>
           </div>
           <div className="relative group">
             <img src={SearchIcon.src} className="cursor-pointer" />
-            <div className="absolute top-full mt-1 -left-7.5 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
+            <div className="absolute top-full mt-1 left-1/2 -translate-x-1/2 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
               Search
             </div>
           </div>
           <div className="relative group">
             <img src={FavoriteIcon.src} className="cursor-pointer" />
-            <div className="absolute top-full mt-1 -left-7.5 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
+            <div className="absolute top-full mt-1 left-1/2 -translate-x-1/2 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
               Favorite
             </div>
           </div>
           <div className="relative group">
             <img src={CartIcon.src} className="cursor-pointer" />
-            <div className="absolute top-full mt-1 -left-3.5 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
+            <div className="absolute top-full mt-1 left-1/2 -translate-x-1/2 px-3 py-1 bg-white border opacity-0 rounded-md transition group-hover:opacity-100 group-hover:delay-700">
               Cart
             </div>
           </div>

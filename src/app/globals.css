@@ -3,12 +3,18 @@
 :root {
   --color-primary: #b88e2f;
   --color-secondary: #fff3e3;
-  --color-text-gray: #9f9f9f;
-  --color-line-gray: #d9d9d9;
+  --color-background-f4f5f7: #f4f5f7;
+  --color-background-e97171: #e97171;
+  --color-background-2ec1aC: #2ec1ac;
+  --color-text-gray-9f9f9f: #9f9f9f;
+  --color-text-gray-66666: #666666;
+  --color-text-gray-898989: #898989;
+  --color-text-gray-b0b0b0: #b0b0b0;
+  --color-line-gray-d9d9d9: #d9d9d9;
 }
 
 .input-placeholder::placeholder {
-  color: var(--color-text-gray);
+  color: var(--color-text-gray-9f9f9f);
 }
 
 /* :root {

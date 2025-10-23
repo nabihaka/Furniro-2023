@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <div
       className="flex flex-col items-center pt-12 pb-9 w-full h-[500px] border-t"
-      style={{ borderColor: "var(--color-line-gray)" }}
+      style={{ borderColor: "var(--color-line-gray-d9d9d9)" }}
     >
       <div className="w-max">
         <div className="flex gap-[136px]">
@@ -15,7 +15,7 @@ export const Footer = () => {
             <h2 className="font-bold text-2xl">Furniro.</h2>
             <div
               className="flex flex-col max-w-72 font-normal"
-              style={{ color: "var(--color-text-gray)" }}
+              style={{ color: "var(--color-text-gray-9f9f9f)" }}
             >
               <span className="capitalize">
                 400 University Drive Suite 200 Coral Gables
@@ -28,7 +28,7 @@ export const Footer = () => {
               <div className="flex flex-col gap-[55px]">
                 <span
                   className="font-medium text-base"
-                  style={{ color: "var(--color-text-gray)" }}
+                  style={{ color: "var(--color-text-gray-9f9f9f)" }}
                 >
                   Links
                 </span>
@@ -46,7 +46,7 @@ export const Footer = () => {
               <div className="flex flex-col gap-[55px]">
                 <span
                   className="font-medium text-base"
-                  style={{ color: "var(--color-text-gray)" }}
+                  style={{ color: "var(--color-text-gray-9f9f9f)" }}
                 >
                   Help
                 </span>
@@ -65,7 +65,7 @@ export const Footer = () => {
             <div className="flex flex-col gap-[55px]">
               <span
                 className="font-medium text-base"
-                style={{ color: "var(--color-text-gray)" }}
+                style={{ color: "var(--color-text-gray-9f9f9f)" }}
               >
                 Newsletter
               </span>
@@ -87,7 +87,7 @@ export const Footer = () => {
         </div>
         <hr
           className="w-full mt-12 mb-[35px] border-gray-500"
-          style={{ borderColor: "var(--color-line-gray)" }}
+          style={{ borderColor: "var(--color-line-gray-d9d9d9)" }}
         />
         <span className="font-normal text-base text-black">
           2023 furniro. All rights reverved

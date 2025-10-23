@@ -4,7 +4,7 @@ import HeroImage from "@/assets/png/hero_image.png";
 export const HeroSection = () => {
   return (
     <div className="w-full h-[656px]">
-      <div className="relative w-full h-full overflow-hidden">
+      <div className="relative w-full h-full">
         <img
           src={HeroImage.src}
           className="absolute w-full h-full object-cover"
@@ -31,7 +31,7 @@ export const HeroSection = () => {
             </div>
             <button
               type="button"
-              className="px-18 py-[25px] w-max font-bold text-base text-white capitalize cursor-pointer"
+              className="px-18 py-[25px] font-bold text-base text-white capitalize cursor-pointer"
               style={{ backgroundColor: "var(--color-primary)" }}
             >
               Buy Now
