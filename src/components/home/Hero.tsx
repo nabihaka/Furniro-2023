@@ -3,11 +3,11 @@ import HeroImage from "@/assets/png/hero_image.png";
 
 export const HeroSection = () => {
   return (
-    <div className="w-full h-[656px]">
+    <div className="h-[656px]">
       <div className="relative w-full h-full">
         <img
           src={HeroImage.src}
-          className="absolute w-full h-full object-cover"
+          className="absolute w-full h-full object-cover object-bottom"
         />
         <div
           className="absolute bottom-24 right-12 pl-[39px] pt-[62px] pr-[43px] pb-[37px] rounded-md"

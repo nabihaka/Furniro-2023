@@ -6,9 +6,9 @@ export interface link {
 
 const rawLinks = [
   { name: "Home", url: "/home" },
-  { name: "Shop", url: "/home/shop" },
-  { name: "About", url: "/home/about" },
-  { name: "Contact", url: "/home/contact" },
+  { name: "Shop", url: "/shop" },
+  { name: "About", url: "/about" },
+  { name: "Contact", url: "/contact" },
 ];
 
 export const navbarLinks: link[] = rawLinks.map((link, index) => ({

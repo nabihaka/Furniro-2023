@@ -9,7 +9,7 @@ import CartIcon from "@/assets/svg/cart_icon.svg";
 
 export const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50 w-full px-14 py-5 bg-white">
+    <div className="sticky top-0 z-50 px-14 py-5 bg-white">
       <div className="flex justify-between items-center w-full">
         <a href="/home">
           <img src={FurniroLogo.src} />
@@ -17,7 +17,7 @@ export const Navbar = () => {
         <ul className="flex items-center gap-[75px] font-medium text-base text-black">
           {navbarLinks.map((navItem) => (
             <li key={navItem.id} className="cursor-pointer">
-              <div className="group w-max">
+              <div className="group w-fit">
                 <Link href={navItem.url}>{navItem.name}</Link>
                 <hr className="w-0 group-hover:w-full transition-all" />
               </div>

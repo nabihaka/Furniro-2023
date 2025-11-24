@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 
 export const MainLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative flex flex-col min-h-screen">
       <Navbar />
       {children}
       <Footer />

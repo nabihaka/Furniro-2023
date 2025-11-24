@@ -3,7 +3,7 @@ import { browseRange } from "@/models/browseRange";
 
 export const BrowseRangeSection = () => {
   return (
-    <div className="flex justify-center w-full pt-14">
+    <div className="flex justify-center pt-14">
       <div className="flex flex-col items-center space-y-16">
         <div className="space-y-0">
           <h2 className="font-bold text-[32px] text-black text-center capitalize">

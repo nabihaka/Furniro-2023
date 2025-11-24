@@ -6,7 +6,7 @@ import { helpLinks } from "@/models/helpLinks";
 export const Footer = () => {
   return (
     <div
-      className="flex flex-col items-center pt-12 pb-9 w-full h-[500px] border-t"
+      className="flex flex-col items-center mt-8 pt-12 pb-9 h-[500px] border-t"
       style={{ borderColor: "var(--color-line-gray-d9d9d9)" }}
     >
       <div className="w-max">
@@ -90,7 +90,7 @@ export const Footer = () => {
           style={{ borderColor: "var(--color-line-gray-d9d9d9)" }}
         />
         <span className="font-normal text-base text-black">
-          2023 furniro. All rights reverved
+          2023 furniro. All rights reserved
         </span>
       </div>
     </div>
